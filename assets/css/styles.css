@@ -1,0 +1,136 @@
+body {
+    font-family: montserrat, sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+/* Styling Navbar */
+.box-navbar {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+}
+.navbar-transparant {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+}
+/* End Navbar */
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.tester {
+    border: 2px solid red;
+    background-color: blue;
+}
+
+.border-gambar {
+    border-radius: 50%;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.accordion-toggle {
+    /* cursor: pointer; */
+    background-color: #fff;
+    text-decoration: none;
+    color: #6868ac;
+}
+
+.accordion-toggle:hover {
+    background-color: #f1f1f1;
+    text-decoration: none;
+}
+
+.badge {
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 1;
+    padding: 7px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.badge-primary {
+    background-color: #6666ca;
+}
+
+.accordion {
+    --bs-accordion-btn-icon: url("");
+    --bs-accordion-btn-active-icon: url("");
+    --bs-accordion-inner-border-radius: 0px;
+}
+
+.accordion-reedit {
+    --bs-accordion-btn-padding-x: 12.5rem;
+    --bs-accordion-btn-padding-y: 0.5rem;
+}
+
+.accordion-item {
+    border: 0px;
+}
+
+.img-fluid {
+    width: 290px;
+    height: 290px;
+    backface-visibility: hidden;
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid #6868ac;
+    padding: 10px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.form-check-input {
+    border: var(--bs-border-width) solid #6868ac;
+    --bs-border-width: 2.5px;
+}
+
+.form-check-input:checked {
+    background-color: #6868ac;
+    border-color: #6868ac;
+}
+
+/* Footer */
+.footer-link a,
+p,
+span {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(224, 224, 224);
+}
+
+.title-tag h6 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.hubungi-kami {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.hubungi-kami button {
+    border-radius: 6px;
+}
+
+.telpon-icon {
+    color: #040468;
+    --bs-btn-hover-color: #040468;
+}
+
+.facebook-icon {
+    color: #040468;
+}
